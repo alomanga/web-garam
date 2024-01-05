@@ -11,6 +11,6 @@
         <li>Andi: 1245</li>
         <li>Disi: 4565</li>
     </ul>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio ipsam, tempore illum eveniet exercitationem accusantium ullam laudantium alias, error reprehenderit nobis ducimus eos nostrum est quidem ipsum culpa iure rem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto magni ipsa cumque, maiores molestias sed culpa ipsam blanditiis fugiat beatae hic facere sint corporis eos ullam tenetur quos assumenda. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio ipsam, tempore illum eveniet exercitationem accusantium ullam laudantium alias, error reprehenderit nobis ducimus eos nostrum est quidem ipsum culpa iure rem.</p>
 </body>
 </html>
