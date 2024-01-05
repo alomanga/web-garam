@@ -1,0 +1,458 @@
+@media screen and (max-width : 922px) {
+    .video-container {
+        width: 100%;
+        height: 333px;
+    }
+
+    .card ul {
+        font-size: 11px;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    .panel-body h5 {
+        font-size: 12px;
+    }
+
+    .panel-body p {
+        font-size: 10px;
+    }
+
+    .panel-body a {
+        font-size: 10px;
+    }
+
+    .panel img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    footer a {
+        font-size: 11px;
+    }
+
+    .copyright {
+        font-size: 11px;
+    }
+
+    .card-contact h2 {
+        font-size: 25px;
+    }
+
+    #berita img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .gambar-berita img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .gambar-berita h5 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    #gal img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #gal video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .isi-struktur img {
+        height: 100%;
+        width: 350px;
+    }
+
+    #halaman img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .panel {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    .gambar-berita {
+        margin-bottom: 20px;
+        width: auto;
+        position: relative;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+}
+
+@media screen and (max-width : 576px) {
+    .hero-tagline h1 {
+        line-height: 52px;
+        font-size: 35px;
+    }
+
+    .hero-tagline p {
+        font-size: 10px;
+    }
+
+    .video-container {
+        width: 380px;
+        height: 233px;
+    }
+
+    .img-hero {
+        width: 65%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .card {
+        margin: 15px 0;
+    }
+    
+    .card ul {
+        font-size: small;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .panel {
+        margin: 15px 0;
+        width: 300px;
+        height: 416px;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    #contact h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .kontak a {
+        line-height: 30px;
+    }
+
+    .card-contact {
+        margin-top: 50px;
+    }
+
+    footer a {
+        font-size: 11px;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+
+    #halaman img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .judul-sejarah h2 {
+        font-size: 25px;
+    }
+
+    .isi-sejarah p {
+        font-size: 13px;
+    }
+
+    .isi-struktur img {
+        height: 100%;
+        width: 350px;
+    }
+
+    .misi-company {
+        margin: 30px 0;
+    }
+
+    #berita img {
+        width: 100%;
+        height: 200px;
+    }
+
+    #gal img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #gal video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gambar-berita img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tulisan-berita h5 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .tulisan-berita p {
+        font-size: 12px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    /* Navbar */
+    .navbar-nav {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+
+    .navbar-toggler-icon img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* Hero Section */
+    #hero {
+        height: 650px;
+        padding: 50px 0;
+    }
+
+    .hero-tagline h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .hero-tagline p {
+        font-size: 14px;
+    }
+
+    /* Profil Perusahaan */
+    #Profil {
+        padding: 30px 0;
+    }
+
+    .video-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .isi-sejarah p {
+        line-height: 20px;
+    }
+
+    /* Berita */
+    #news {
+        padding: 30px 0;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    .panel {
+        height: auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .panel img {
+        object-fit: cover;
+        height: 228px;
+    }
+
+    .panel-body p {
+        font-size: 12px;
+    }
+
+    .panel-body h5 {
+        font-size: 16px;
+    }
+
+    .panel a {
+        font-size: 12px;
+    }
+
+    /* Isi Berita */
+    .gambar-isi-berita img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .tulisan-isi-berita h5 {
+        line-height: 35px;
+    }
+
+    /* Galeri */
+    #galeri {
+        padding: 30px 0;
+    }
+
+    #contact {
+        padding: 0;
+    }
+
+    #contact h3 {
+        text-align: center;
+    }
+
+    .kontak {
+        text-align: center;
+    }
+
+    .card-contact {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        margin-bottom: 15px;
+    }
+
+    .button-kontak {
+        width: 100%;
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-logo img {
+        margin-bottom: 15px;
+    }
+
+    .footer-links {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+        /* Atur ukuran font sesuai kebutuhan */
+        margin: 0 10px;
+    }
+
+    .menu-tulis a {
+        display: inline-block;
+        /* Set the display property to inline-block */
+        margin-right: 0;
+        font-size: 8px;
+        margin-top: 2px;
+
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .social-icons i {
+        font-size: 20px;
+        /* Atur ukuran font sesuai kebutuhan */
+        margin: 0 10px;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 9px;
+        margin-bottom: -15px;
+        /* Atur ukuran font sesuai kebutuhan */
+    }
+
+    #Profil h2,
+    #news h2,
+    #galeri h2 {
+        font-size: 25px;
+    }
+
+    /* company.php */
+    .misi-company {
+        max-width: 100%; /* Memastikan div tidak melewati lebar parent */
+    }
+    
+    .misi-company ul {
+        font-size: 0.9rem; /* Gunakan rem atau em sesuai kebutuhan */
+        text-align: left;
+    }
+    
+    .misi-company li {
+        font-size: 0.5rem; /* Gunakan rem atau em sesuai kebutuhan */
+    }
+
+    .isi-struktur {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .isi-struktur img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .judul-sejarah h2,
+    .judul-struktur h2,
+    .judul-sertifikasi h2 {
+        font-size: 25px;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    #halaman img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #berita img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .call,
+    .sosmet {
+        margin-top: 10px;
+    }
+}

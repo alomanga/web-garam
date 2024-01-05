@@ -1,0 +1,648 @@
+:root {
+    --pr-color: #B1A697;
+    --galeri-1: #3c343d;
+    --galeri-2: #6b626c;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FBFCFD;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar style */
+.navbar {
+    z-index: 3;
+}
+
+/* Navbar Color */
+.nav-color {
+    background-color: rgba(74, 149, 230, 0.70);;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in 0.3s;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.navbar-brand p {
+    margin-bottom: 0; /* Remove bottom margin */
+    color: #ffffff; /* Change text color */
+    text-decoration: none; /* Remove underline */
+    line-height: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand p:first-child {
+    font-weight: bold; /* Make the first line bold */
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-primary {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    color: var(--pr-color);
+    font-size: 14px;
+    border: none;
+    font-weight: 400;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url(../Assets/img/bghero2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.hero-tagline p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Profile Home */
+#Profil {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.video-container {
+    width: 780px;
+    height: 433px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4a95e6;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 433px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: skyblue;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    text-align: center;
+    
+}
+
+.card h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.card p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.card ul {
+    color: #fff;
+}
+
+/* News */
+#news {
+    padding: 50px 0;
+    background: #FFF;
+}
+
+.buttons {
+    width: 150px;
+    height: 45px;
+    background-color: #4a95e6;
+    color: #FFFFF7;
+    font-size: 14px;
+    border: none;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.panel {
+    width: 100%;
+    height: 416px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel img {
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.panel-body p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.panel-body h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel a {
+    font-size: 10px;
+    color: #2385C4;
+    text-decoration: underline;
+    padding: auto;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+/* Galeri */
+#galeri {
+    padding: 50px 0;
+    background: #FFF;
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #B1A697;
+    padding: 0;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #B1A697;
+    padding: 0;
+}
+
+/* Kontak */
+#contact {
+    background-image: url(../Assets/img/bg-kontak.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.kontak h6 {
+    color: var(--pr-color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    /* 260.87% */
+}
+
+.kontak a {
+    color: #F6F6F6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    /* 175% */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.card-contact {
+    width: 100%;
+    height: 449px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    padding: 40px 45px;
+}
+
+.form-control {
+    height: 81px !important;
+    background: rgba(146, 146, 146, 0.49);
+}
+
+.form-floating label {
+    color: rgba(146, 146, 146, 0.49);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 175% */
+}
+
+.card-contact h2 {
+    color: var(--pr-color);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    /* 166.667% */
+}
+
+.button-kontak {
+    width: 100%;
+    height: 61px;
+    background: #2385C4;
+    color: var(--pr-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    /* 200% */
+    border: none;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.90);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.call img {
+    width: 25px;
+    height: 25px;
+}
+
+.call p {
+    font-size: 13px;
+}
+
+
+.lokasi {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.lokasi img {
+    width: 30px;
+    height: 30px;
+}
+
+.lokasi p {
+    font-size: 13px;
+}
+
+.sosmet {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    padding: 65px;
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.sosmet img {
+    width: 40px;
+    height: 40px;
+}
+
+iframe {
+    margin-top: 20px; /* Add space above the iframe */
+    pointer-events: none; /* Prevent interaction with the iframe */
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 202px;
+    background: #464747;
+}
+
+.copyright {
+    bottom: 1%;
+    color: #BBB;
+}
+
+footer a {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.footer-logo p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff; /* Change text color */
+    text-decoration: none; /* Remove underline */
+    line-height: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Berita Open */
+#Beritabuka {
+    padding: 100px 0;
+    background: white;
+}
+
+.gambar-isi-berita {
+    margin-bottom: 25px;
+}
+
+.gambar-isi-berita img {
+    max-width: 700px;
+    max-height: 393px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.gambar-isi-berita a {
+    text-decoration: none;
+}
+
+.tulisan-isi-berita h5 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px; /* 128.571% */
+}
+
+.tulisan-isi-berita p {
+    color: #000;
+}
+
+.gambar-berita {
+    margin-bottom: 20px;
+    width: 700px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gambar-berita::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.4); */
+    z-index: 0;
+    border-radius: 6px;
+}
+
+.gambar-berita:hover {
+    transform: scale(1.03);
+}
+
+.gambar-berita img {
+    width: 700px;
+    max-height: 393px;
+    object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
+    
+}
+
+.tulisan-berita h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    /* line-height: 45px; */
+    /* 128.571% */
+}
+
+.tulisan-berita {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: calc(100% - 20px);
+}
+
+.tulisan-berita p {
+    /* color: black; */
+    font-size: 12px;
+}
+
+
+
+/* Company New Slide */
+#halaman {
+    padding: 0 0 45px 0;
+    background: #fff;
+}
+
+.com-pic {
+    height: fit-content;
+}
+
+.isi-sejarah {
+    border-radius: 8px;
+    background: skyblue;
+    padding: 30px;
+}
+
+.isi-sejarah p {
+    color: #fff;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.visi-company {
+    width: 100%;
+    height: 433px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: skyblue;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.misi-company {
+    width: 100%;
+    height: 433px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: skyblue;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.visi-company h3,
+.misi-company h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.visi-company p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.misi-company ul {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    /* 114.286% */
+    padding: 10px 9px 3px 15px;
+}
+
+#struc-organisasi {
+    background: #fff;
+}
+
+.isi-struktur {
+    border-radius: 8px;
+    background: skyblue;
+    padding: 30px;
+}
+
+/* Sertifikasi */
+#sertifikasi {
+    padding: 50px 0;
+    background: #fff;
+}
+
+/* News */
+#berita {
+    padding: 0;
+    background: #fff;
+}
+
+.ber-pic {
+    height: fit-content;
+}
+
+.gambar-berita a {
+    text-decoration: none;
+}
+
+.isi-berita {
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.isi-berita h5 {
+    /* color: #333; */
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    /* line-height: 1.5; */
+    /* 128.571% */
+    /* text-align: justify; */
+}
+
+.isi-berita p {
+    color: #555;
+    font-size: 12px;
+    /* font-weight: 1.6; */
+    text-align: justify;
+}
+
+/* Galeri */
+#gal {
+    padding: 0;
+    background: #fff;
+}
+
+.gal-pic {
+    height: fit-content;
+}
+
+#galfoto {
+    padding: 0 0 60px 0;
+    background: #fff;
+}
+
+.galeri-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 15px;
+    height: 150px;
+}
+
+.galeri-item:hover {
+    transform: scale(1.03);
+}
+
+.galeri-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.galeri-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
